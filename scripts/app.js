@@ -360,7 +360,7 @@
     ];
     app.saveSelectedCities();
   }
-
+  console.log(e.request.url);
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker
         .register('./service-worker.js')
